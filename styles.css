@@ -1,1 +1,46 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: aquamarine;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
 
+.tic-tac-toe a{
+    display: block;
+    padding-left: 200px;
+    text-decoration: none;
+    font-size:xx-large;
+
+}
+.tic-tac-toe img{
+    padding: 30px;
+    display: block;
+    height: 500px;
+}
+
+.calculator img{
+    padding: 30px;
+    display: block;
+    height: 500px; 
+    padding-left: 100px;
+}
+.calculator a{
+    display: block;
+    padding-left: 100px;
+    text-decoration: none;
+    padding-left: 200px;
+    font-size:xx-large;
+}
+@media screen and (max-width:980px) {
+    .container{
+      grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+}
