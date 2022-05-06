@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     font-family: 'Itim', cursive;
+    background-color: #12181B;
 }
 
 .background {
-    background-color: #12181B;
+/*     background-color: #12181B; */
     padding: 1px;
 }
 
