@@ -9,6 +9,26 @@
     /* background-color: #12181B; */
     padding: 1px;
 }
+ .btn{
+    width: 100px;
+    padding: 10px;
+    /* border: none; */
+    /* background-color:#4CAF50; */
+    border-radius: 15px;
+    box-shadow: 3px 4px #999;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+ }
+ .btn a{
+    display: block;
+    /* padding-left: 200px; */
+    text-decoration: none;
+    font-size:xx-large;
+    color: white;
+ }
+
+
 
 .title {
     color: white;
